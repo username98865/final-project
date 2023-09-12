@@ -1,0 +1,52 @@
+#story {
+	display: flex;
+	flex-wrap: wrap;
+	overflow-y: auto;
+}
+.card {
+	display: inline-block;
+	width: 250px;
+	height: 160px;
+	margin-right: 20px;
+	background-color: #E0E0E0;
+}
+.writerId{
+	height: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: #E0E0E0;
+}
+.content {
+	height: 60px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+.createdAt{
+	height: 40px;
+	background-color: #E0E0E0;
+}
+.modal{
+}
+.modal-content{
+	border-radius: 80px;
+	padding: 40px;
+	background-color: #CCFFE5;
+}
+.modal-header{
+	background-color: white;
+}
+.modal-body {
+	background-color: white;
+}
+.modal-footer{
+	background-color: white;
+
+}
+.storyModalContent{
+	height: 100px;
+}
+#profile{
+	width: 30vw;
+	height: 80vh;
+}
